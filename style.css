@@ -1,0 +1,145 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+main {
+  width: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 15px;
+  flex-direction: column;
+}
+.box1 {
+  background-color: hsl(31, 77%, 52%);
+  padding: 2em;
+  width: 150%;
+  height: 55vh;
+  flex-wrap: wrap;
+}
+.box1 h3 {
+  padding: 5px 8px;
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+}
+.box1 p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+  word-spacing: 0.2em;
+  font-size: 15px;
+}
+.button1 {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  padding-left: 0.4rem;
+  padding-bottom: 0.7rem;
+  padding-top: 0.7rem;
+  border-radius: 1.5rem;
+  border: none;
+  padding-right: 0.4rem;
+  width: 70%;
+  margin-top: 4em;
+  margin-left: 1.5em;
+}
+.button1:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+}
+.box2 {
+  background-color: hsl(184, 100%, 22%);
+  padding: 2em;
+  width: 150%;
+  height: 55vh;
+}
+.box2 h3 {
+  padding: 5px 8px;
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+}
+.box2 p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+  word-spacing: 0.2em;
+  font-size: 15px;
+}
+.button2 {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  padding-left: 0.4rem;
+  padding-bottom: 0.7rem;
+  padding-top: 0.7rem;
+  border-radius: 1.5rem;
+  border: none;
+  padding-right: 0.4rem;
+  width: 70%;
+  margin-top: 4em;
+  margin-left: 1.5em;
+}
+.button2:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+}
+.box3 {
+  background-color: hsl(179, 100%, 13%);
+  padding: 2em;
+  width: 150%;
+  height: 55vh;
+}
+.box3 h3 {
+  padding: 5px 8px;
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+}
+.box3 p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+  word-spacing: 0.2em;
+  font-size: 15px;
+}
+.button3 {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+  padding-left: 0.4rem;
+  padding-bottom: 0.7rem;
+  padding-top: 0.7rem;
+  border-radius: 1.5rem;
+  border: none;
+  padding-right: 0.4rem;
+  width: 70%;
+  margin-top: 4em;
+  margin-left: 1.5em;
+}
+.button3:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+}
+.container {
+  display: flex;
+}
+.link {
+  margin-top: 5rem;
+  text-decoration: none;
+}
