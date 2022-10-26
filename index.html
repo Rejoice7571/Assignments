@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://kit.fontawesome.com/5c6136eaff.js"></script>
+  </head>
+  <body>
+    <header></header>
+      <form class="container">
+        <h1>Zurix14G Registration Form</h1>
+        <div class="signupbox">
+          <article class="left">
+            <form method="POST" action="" autocomplete="on">
+                <label for="Firstname">Firstname:</label>
+                <input type="text" name="Firstname" id="Firstname" placeholder="Firstname" autofocus required/>
+                <label for="Lastname">Lastname:</label>
+                <input type="text" name="Lastname" id="Lastname" placeholder="Lastname" required/>
+                <label for="Email">Email:</label>
+                <input type="email" pattern=".+@gmail\.com" name="email" id="Email" placeholder="Email" size="64" maxlength="64" requied/>
+                <label for="Phonr Number">Phone Number:</label>
+                <input type="tel" name="Phone Number" id="Phone" placeholder="0802-222-2222" maxlength="13" required/>
+                <label for="Gender"> Select Gender</label>
+                <select name="Gender" id="Gender" class="Select" required> 
+                    <option value="Male">Male</option>
+                    <option valur="Female">Female</option>
+                </select>
+                 <label for="psw">Password</label>
+                 <input type="password" name="psw" id="psw" required />
+                 <label for="cpsw">Confirm password</label>
+                 <input type="password" name="cpsw" id="cpsw" required />
+                 <input type="Date" name="Dateofbirth" id="DOB" placeholder="Date Of Birth" required/>
+              
+                  <label for="color">Choose your favourite colour</label>
+                  <input type="color" name="color" id="color" />
+                  
+                 <a href="login.html"><button input type="button" id="sendbtn" value="Sign Up">Sign up</button></a>
+            </form>
+          </article>
+          <article class="right">
+            <a href="" class="facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+                Sign Up With Facebook</a>
+            <a href="" class="Twitter">
+                <i class="fsa-brands fa-twitter"></i>
+                Sign Up with Twitter</<a href="" class="Github">
+                <i class="fa-brands fa-github"></i>
+            Sign Up with Github</a>
+            <a href="" class="Google">
+                <i class="fa-brands fa-google"></i>
+            Sign Up with Google</a>
+              <p>Already have an account?<a href="login.html"><button input type="button" id="sendbtn" value="Sign In"></button>Sign In</a></p>
+            </div>
+          </article>
+        </div>
+    <footer></footer>
+  </body>
+</html> 

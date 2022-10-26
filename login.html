@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/5c6136eaff.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section class="container">
+        <h1>Sign in | Zuri</h1>
+        <div class="loginbox">
+          <article class="left">
+            <form method="post" action="success.html" autocomplete="on">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                pattern="/^[a-zA-Z0-9.!#$.+@gmail\.com"
+                name="email"
+                id="email"
+                placeholder="Your Email"
+                required
+              />
+
+              <label for="password">Password:</label>
+              <input
+                type="password"
+                pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+                name="password"
+                id="password"
+                title="Password must contain: Minimum 8 characters at least 1 Alphabet and 1 Number"
+                placeholder="Your Password"
+                required
+              />
+              <a href="success.html"><button type="button" id="loginbtn">Log in</button></a>
+            </form>
+            <div class="login-msg2 clear">
+              New to Our Site
+              <a href="index.html" class="logtouch">Join Us Now</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
